@@ -58,6 +58,7 @@ const createNewNote = () => {
         popup.classList.remove('show')
         text.value = ''
         category.selectedIndex = 0
+        error.textContent=''
     }
 };
 

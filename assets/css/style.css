@@ -107,7 +107,7 @@ h6 {
 
 @media (max-width: 710px) {
     .buttons {
-        margin-left: 1.875rem;
+        margin-left: 0.9375rem;
     }
 }
 
@@ -323,6 +323,18 @@ p {
     margin: 5px 15px;
     position: relative;
     align-self: start;
+}
+
+@media (max-width: 465px) {
+    .note-item {
+        width: 9.375rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .note-item {
+        width: 8.125rem;
+    }
 }
 
 .note-name {
